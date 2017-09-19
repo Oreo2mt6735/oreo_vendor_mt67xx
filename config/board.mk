@@ -62,8 +62,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 endif
 
 # SELinux
-BOARD_SEPOLICY_DIRS := \
-    vendor/mt67xx/sepolicy
+#BOARD_SEPOLICY_DIRS := \
+    #vendor/mt67xx/sepolicy
 
 # DEXPREOPT
 ifeq ($(TARGET_BUILD_VARIANT),user)
