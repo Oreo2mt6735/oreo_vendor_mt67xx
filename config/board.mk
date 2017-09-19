@@ -6,7 +6,7 @@ USE_OPENGL_RENDERER := true
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
-BOARD_EGL_CFG := vendor/mad/prebuilt/etc/egl.cfg
+BOARD_EGL_CFG := vendor/mt67xx/prebuilt/etc/egl.cfg
 
 # Boot animation
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
@@ -63,7 +63,7 @@ endif
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-    vendor/mad/sepolicy
+    vendor/mt67xx/sepolicy
 
 # DEXPREOPT
 ifeq ($(TARGET_BUILD_VARIANT),user)
